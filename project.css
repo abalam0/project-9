@@ -1,0 +1,823 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.webbody{
+    border-radius:5px;
+    margin: 0px 20px 20px 20px;
+    box-shadow: 0px 1px 6px 1px rgb(219, 219, 219);
+}
+
+
+
+
+/*  CSS OF HEADER PART */
+
+
+.hbody{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    gap: 4%;
+    padding-top: 20px;
+    padding-bottom:20px;
+    background-color: rgb(240, 238, 238);
+}
+
+.logo span{
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+.logo{
+    gap: 6%;
+    display: flex;
+}
+
+
+.logo .logoicon{
+    margin-left:60px ;
+    width: 25px;
+    border-radius: 5px;
+    padding: 0px 8px;
+    background-color: #6366f1;
+   
+}
+
+.logoicon h1{
+    font-weight: 100%;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+}
+
+.logoname{
+    font-size: 18px;
+}
+
+.link a{
+    
+    color: #727272;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.link .fa{
+    font-size: 18px;
+    padding: 0px 34px 0px 600px;
+    color: rgb(85, 85, 85);
+}
+
+
+
+
+
+/* CSS OF IMAGE PART */
+/* CSS OF IMAGE PART */
+/* CSS OF IMAGE PART */
+
+
+
+.pdbody{
+    padding-top: 60px;
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.imagebody{
+    width: 50%;
+}
+
+
+
+.bigimage img{
+    margin-top: 0px;
+    width: 100%;
+    height: 900px;
+    border-radius: 8px;
+}
+
+
+
+.thamimgpart{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.thamimgpart  img{
+    width: 130px;
+    height: 180px;
+    border-radius: 6px;
+    gap: 2%;
+}
+
+.thamimgpart .tham1 img {
+    border: 2px solid ;
+    color: blue;
+}
+
+
+/* CSS END OF IMAGE PART */
+
+/* CSS START OF DETAILS PART */
+
+.detailsbody{
+    padding-top: 0px;
+    padding-left:30px;
+    width: 50%;
+}
+
+.detailspart .dollar{
+    display: flex;
+    gap: 8px;
+}
+
+.detailspart h1{
+    padding-top: 5px;
+    font-size: 30px;
+    letter-spacing:1px;
+}
+
+.detailspart .dollar{
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.detailspart .dollar1{
+    font-size: 20px;
+}
+
+.detailspart del{
+    padding-top: 5px;
+    font-size: 15px;
+    color: rgb(124, 129, 128);
+}
+
+.detailspart .discount{
+    font-size: 18px;
+    background-color: rgb(252, 252, 235);
+    padding-left: 10px;
+    width: 16%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(179, 79, 79) ;
+    border: 2px solid rgb(252, 252, 154);
+    border-radius: 20px;
+}
+
+
+.detailspart .fa {
+    font-size: 20px;
+  }
+  
+ .detailspart .checked {
+    color: orange;
+  }
+  
+.detailspart .half{
+      font-size:20px;
+      color:orange;
+}
+
+.detailspart .star{
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.detailspart .span1{
+    padding-right:  12px;
+    font-size: 20px;
+}
+
+.detailspart .text{
+  color: blue;
+  padding-left: 15px;
+}
+
+.detailspart .texts{
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: grey ;
+}
+
+
+.colors {
+    padding-top: 0px;
+    display: flex;
+    gap: 5%;
+}
+
+.colors p{
+    padding-top: 8px;
+}
+
+.colors .border{
+ width: 40px;
+ height: 40px;
+ border: 2px solid blue;
+ background-color: white;
+ border-radius: 50%;
+ padding: 2px;
+}
+
+
+
+.border .green i{
+    color: #ffffff;
+    padding:4px;
+    font-size: 25px;
+}
+
+
+ .colors .green{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(4, 228, 4);
+    
+}
+
+
+.colors .oreng{
+    background-color: rgb(219, 145, 8);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+
+.detailsbody h4{
+    font-size: 15px;
+    padding-top: 30px;
+    color: rgb(131, 131, 131) ;
+}
+
+
+/*  CSS start for BUTTON of PRODUCT SIZE*/ 
+
+
+.sizebutton{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.sizebutton button{
+    width: 60px;
+    height: 50px;
+    background-color:#ffffff;
+    border-radius: 6px;
+   border: 2px solid #dbdada;
+}
+
+.sizebutton .button1{
+    border: 2px solid blue;
+}
+
+/*  CSS END OF BUTTON FOR PRODUCT SIZE*/
+
+/* CSS  OF QIANTITY */
+/* CSS  OF QIANTITY */
+
+
+.detailsbody .quantity{
+    margin-top: 20px;
+    margin-bottom: 20PX;
+    border-radius:10px;
+    border: 2px solid rgb(230, 227, 227);
+    width: 40%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(235, 245, 240);
+}
+
+
+.detailsbody .quantity  button{
+    width: 40px;
+    border: none;
+    background-color:rgb(235, 245, 240);
+}
+
+
+.quantity .minusicon{
+     font-size:15px;
+}
+
+.quantity .oneicon{
+    font-size: 16px;
+}
+
+.quantity .plusicon{
+    font-size:14px;
+}
+
+
+/* CSS OF ADD TO CART */
+
+.cart button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(52, 52, 240);
+    color: aliceblue;
+}
+
+
+
+.features .textminus1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.detailsbody p{
+    color: rgb(90, 90, 90);
+}
+
+
+.detailsbody ul{  
+    padding-bottom: 30px;
+    color: #797777;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.detailsbody h3{
+    font-size: 16px;
+}
+
+
+.detailsbody hr{ 
+    border: 1px solid rgb(233, 230, 230);
+}
+
+
+.fabric .textminus2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shipping .textminus3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* END CSS OF SECTION 1 */
+
+
+/* START CSS OF SECTION 2 */
+
+
+
+.section2{
+    padding-top: 150px;
+    width: 94%;
+    margin: 0px auto;
+}
+
+
+
+.section2 .distext p{
+    padding-top: 20px;
+  color: #666363; ;
+}
+
+
+.section2 .tab .firstp{
+    color: #6366f1;
+}
+
+.section2 .image{
+    width: 40%;
+    height: 250px;
+}
+
+.section2 .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.section2 .text{
+    width: 60%;
+}
+
+.section2 .tab{
+    margin-top: 20px;
+    display: flex;
+    color: #666363;
+    gap: 3%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+
+
+.custom-hr {
+    border: none;                  /* Remove default border */
+    height: 1.5px;                   /* Set height of the HR */
+    background: #ccc;              /* Color for the entire HR */
+    position: relative;
+}
+
+.custom-hr::before {
+    content: '';                   /* Create an empty content */
+    position: absolute;
+    top: 0;
+    left:0%;                     /* Start the color part at 30% */
+    width: 110px;                    /* Set the width of the colored part */
+    height: 100%;
+    background-color:blue;     /* Set the color of the specific part (Tomato) */
+}
+
+
+
+.imgtext {
+    padding-top: 20px;
+    display: flex;
+    gap: 3%;
+}
+
+
+.fouricon{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    margin-top: 20px;
+}
+
+.recaricon{
+    width:50% ;
+}
+
+
+.fouricon span{
+    padding-left: 10px;
+}
+
+
+.recaricon .recycleicon{
+    margin-bottom: 28px;
+}
+
+
+
+.lowwaicon{
+    padding-right: 10px;
+    width: 50%;
+}
+
+
+.lowwaicon .lowicon{
+    margin-bottom: 28px;
+}
+
+
+
+.recycle-icon {
+    font-size: 16px;               /* Size of the icon */
+    color:blue;                /* Green color to resemble recycle */
+    transition:  0.3s ease color 0.3s ease;
+    border-radius: 40px;
+    border: 14px solid white;
+    background-color:white;
+    box-shadow: 1px 1px 5px 1px black;
+
+}
+
+
+
+.carbon-icon {
+    font-size: 16px;                /* Size of the icon */
+    color: blue;                 /* Greenish color representing sustainability */
+    transition: transform 0.3s ease;
+    border-radius: 40px;
+    border: 14px solid white;
+    background-color:white;
+    box-shadow: 1px 1px 5px 1px black;
+
+
+}
+
+
+
+.dye-icon {
+    font-size: 16px;                /* Size of the icon */
+    color:blue;                 /* Blue color to symbolize water/dye */
+    transition: transform 0.3s ease;
+    border-radius: 40px;
+    border: 14px solid white;
+    background-color:white;
+    box-shadow: 1px 1px 5px 1px black;
+
+
+}
+
+
+.water-icon {
+    font-size: 16px;                /* Size of the icon */
+    color:blue;                 /* Blue color representing water */
+    transition: transform 0.3s ease, color 0.3s ease;
+    border-radius: 40px;
+    border: 14px solid white;
+    background-color:white;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+/* END CSS OF SECTION 2 */
+
+
+/* START CSS OF SECTION 3 */
+
+
+.section3{
+    padding-top: 130px;
+    margin: 0px auto;
+    width:94%;
+}
+
+.collection{
+   padding-top: 20px;
+   width: 100%;
+   display: flex;
+   margin: 0px auto;
+   gap: 2%;
+}
+
+
+.collection .image1 {
+    width: 25%;
+ }
+ 
+ .collection .image2 {
+     width: 25%;
+ }
+ 
+ .collection .image3 {
+     width: 25%;
+ }
+ 
+ 
+ .collection .image4{
+     width: 25%;
+ }
+
+.collection img{
+    border-radius: 5px;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+.collection .colors{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.collection h6{
+    color: #797777;
+    padding-top: 10px;
+}
+
+.section3 h1{
+    font-size: 21px;
+}
+
+.collection h4{
+    color: #464545;
+}
+
+.collection  p{
+    padding-top: 12px;
+    font-size: 20px;
+    color: #797777;
+}
+
+.collection .dollar{
+    padding-bottom: 20px;
+    display: flex;
+    gap: 3%;
+}
+
+
+.collection .uncrossdoll{
+    padding-bottom: 20px;
+
+}
+
+
+
+.collection del{
+    color: #797777;
+    padding-top: 18px;
+    font-size: 14px;
+}
+
+.collection .colors .chocolate{
+    background-color: chocolate;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.collection .colors .blue{
+    background-color:blue;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.collection .colors .black{
+    background-color: black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.collection  .blank{
+    background-color: white;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid rgb(150, 148, 148);
+}
+
+/* END CSS OF SEACTION 3 */
+
+
+/* START CSS OF SECTION 4 */
+
+.section4 {
+    width: 94%;
+    margin: 0px auto;
+}
+
+.about{
+    padding-bottom: 30px;
+    padding-top: 180px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.about .textemail{
+    justify-content: space-between;
+    display: flex;
+}
+
+.textemail h1{
+    padding-bottom: 20px;
+}
+
+
+
+.logo2{
+    display: flex;
+    gap: 2%;
+    margin-bottom: 20px;
+}
+
+
+.logo2 .logoicon2{
+    width: 25px;
+    border-radius: 5px;
+    padding: 0px 2px;
+    background-color: #6366f1;
+   
+}
+
+.logoicon2 h1{
+    font-weight: 100%;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+}
+
+.logoname2{
+    font-size: 18px;
+} 
+
+
+
+
+.emailsub input{
+    padding-left: 10px;
+    width: 250px;
+    height: 42px;
+    font-size: 12px;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border: 1px solid  rgb(228, 227, 227) ;
+    border-radius: 4px;
+}
+
+.emailsub button{
+    margin-left: 5px;
+    font-size: 12px;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    background-color: blue;
+    color: rgb(231, 231, 231);
+    border: none;
+    border-radius: 4px;
+}
+
+.textcollection {
+    gap: 5%;
+    padding-top:40px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.textcollection .logotext{
+    width: 40%;
+}
+.textcollection .categories{
+    padding-left: 20px;
+    width: 30%;
+
+}
+.textcollection .allcollection{
+    width: 25%;
+}
+
+
+.textcollection .logo{
+    padding-bottom: 20px;
+}
+
+
+.textcollection p{
+    color: #797777;
+    font-size: 14px;
+}
+
+.textcollection .caco{
+    color: black;
+    padding-bottom: 10px;
+}
+
+/* END CSS OF SECTION 4 */
+
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin: 0px auto;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    color: #797777;
+}
+
+footer a{
+    padding: 8px;
+    font-size:20px;
+    text-decoration: none;
+    gap: 5%;
+    color: #797777;
+}
+
+
+
